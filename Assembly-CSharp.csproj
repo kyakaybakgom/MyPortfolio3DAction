@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0E07E27-190E-7E61-E1C3-6076C7090A2B}</ProjectGuid>
+    <ProjectGuid>{F3DC813F-1431-EA34-117D-05484F8512F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,11 +57,17 @@
     <Compile Include="Assets\08.InputSystems\PlayerActions.cs" />
     <Compile Include="Assets\00.Assets\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
     <Compile Include="Assets\00.Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\08.InputSystems\MyPortfolio_3DAction.cs" />
     <Compile Include="Assets\00.Assets\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
     <Compile Include="Assets\00.Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
     <Compile Include="Assets\00.Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
     <Compile Include="Assets\03.Scripts\Player\PlayerMoveManager.cs" />
-    <Compile Include="Assets\08.InputSystems\MyPortfolio_3DAction.cs" />
+    <Compile Include="Assets\03.Scripts\Player\PlayerAnimatorManager.cs" />
+    <Compile Include="Assets\00.Assets\UI\Beautiful Progress Bar Free - CYKO\Scripts\SliderScripts.cs" />
+    <Compile Include="Assets\03.Scripts\Interface\IHpBar.cs" />
+    <Compile Include="Assets\03.Scripts\UI\HpProgressBarManager.cs" />
+    <Compile Include="Assets\03.Scripts\Player\PlayerHpManager.cs" />
+    <Compile Include="Assets\03.Scripts\Interface\ITakeDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\00.Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
@@ -743,6 +749,9 @@
     </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
